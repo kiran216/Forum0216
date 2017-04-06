@@ -94,7 +94,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Angular\app.js" />
+    <Content Include="Angular\Components\Category\CategoryController.js" />
+    <Content Include="Angular\Components\Category\CategoryService.js" />
+    <Content Include="Angular\Components\Forum\ForumController.js" />
+    <Content Include="Angular\Components\Forum\ForumService.js" />
     <Content Include="Angular\Config.js" />
+    <Content Include="Angular\Shared\Directives\NavbarDirective.js" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
@@ -868,6 +873,7 @@
     <Content Include="Scripts\core\jquery-1.10.2.min.js" />
     <Content Include="Scripts\core\modernizr-2.6.2.js" />
     <Content Include="Web.config" />
+    <Content Include="Views\Home\CategoryListing.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
@@ -910,8 +916,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Angular\Components\" />
-    <Folder Include="Angular\Shared\Directives\" />
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
   </ItemGroup>
